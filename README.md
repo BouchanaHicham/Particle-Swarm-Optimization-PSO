@@ -1,4 +1,4 @@
-# Particle Swarm Optimization (PSO) Repository
+# Particle Swarm Optimization (PSO)
 
 ![Python](https://img.shields.io/badge/python-3.x-blue.svg)
 
