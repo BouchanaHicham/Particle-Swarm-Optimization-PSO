@@ -49,6 +49,17 @@ The PSO algorithm simulates the behavior of a swarm of particles searching for t
 - `c1`: Cognitive parameter (default: 1).
 - `c2`: Social parameter (default: 2).
 
+## Example
+```python
+# Define the function to be minimized
+def f(x):
+    return 10*np.sin((0.3*x)*np.sin(1.3*(x**2)+0.00001*(x**4)+0.2*x+80))
+```
+Best position: [5.32940209] <br>
+Best fitness: -10.0
+
+![2D Plot](https://github.com/BouchanaHicham/particle_swarm_optimization/blob/main/global_minimum_example.png)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
